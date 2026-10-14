@@ -1,1 +1,19 @@
 # Visual Studio 本机缓存
+.vs/
+**/.vs/
+*.user
+*.suo
+*.db*
+*.ipch
+
+# 编译生成的文件
+**/[Dd]ebug/
+**/[Rr]elease/
+**/x64/
+**/x86/
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.tlog
+*.recipe
