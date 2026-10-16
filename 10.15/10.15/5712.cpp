@@ -4,7 +4,7 @@ int main()
 {
 	int x = 0;
 	char fru[100];
-	char res[] = "Today,I ate ";
+	char res[] = "Today, I ate ";
 	scanf("%d", &x);
 	if (x >= 2)
 	{
@@ -16,5 +16,4 @@ int main()
 	}
 	printf("%s%d %s",res,x,fru);
 	return 0;
-
 }
