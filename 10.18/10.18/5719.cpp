@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int n, k;
+    int n,k;
     scanf("%d %d", &n, &k);
-    float sum1 = 0;
-    float sum2 = 0;
+    int sum1 = 0;
+    int sum2 = 0;
     int number1 = 0;
     int number2 = 0;
     for (int i = 1; i <= n; i++)
@@ -21,6 +21,6 @@ int main()
             number2 += 1;
         }
     }
-    printf("%.1f %.1f", sum1 / number1, sum2 / number2);
+    printf("%.1f %.1f", (float)sum1 / number1, (float)sum2 / number2);
     return 0;
 }
